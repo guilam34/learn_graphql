@@ -1,0 +1,26 @@
+{
+  "name": "learn_graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilam34/learn_graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilam34/learn_graphql/issues"
+  },
+  "homepage": "https://github.com/guilam34/learn_graphql#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphsql": "0.0.0",
+    "lodash": "^4.17.11"
+  }
+}
