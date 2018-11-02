@@ -2,9 +2,10 @@
   "name": "learn_graphql",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets es2015 server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
     "graphql": "^14.0.2",
     "graphsql": "0.0.0",
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
