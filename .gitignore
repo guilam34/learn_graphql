@@ -1,2 +1,3 @@
 pt1/node_modules
-pt2/node_modules
+temp/node_modules
+temp/server/creds.js
